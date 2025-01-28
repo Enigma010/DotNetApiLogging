@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
 using System.Runtime.InteropServices;
 
-namespace Logging.Di
+namespace DotNetApiLogging.Di
 {
     public static class DependencyInjector
     {
