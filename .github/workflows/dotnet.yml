@@ -12,12 +12,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
     env:
       GITHUBCFG_PAT: ${{ secrets.GITHUBCFG_PAT }}
       GITHUBCFG_NAMESPACE: ${{ secrets.GITHUBCFG_NAMESPACE }}
-      GITHUBCFG_USERNAME: ${{ secrets.GITHUBCFG_USERNAME }}
+      GITHUBCFG_USERNAME: ${{ secrets.GITHUBCFG_USERNAME }}    
+    steps:
+    - uses: actions/checkout@v4
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
