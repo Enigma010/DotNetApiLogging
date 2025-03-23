@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DotNetApiLogging.Tests.Console.E2e": {
+      "commandName": "Project",
+      "commandLineArgs": "--logPath C:\\Source\\GitHub\\DotNetApiLogging\\DotNetApiLogging.Tests.Console.E2e\\bin\\Debug\\net8.0\\Output\\log-.json --logLevel 0 --traceIdMessge \"Trace Id: {traceId}\" --traceIdTrace 1 --traceIdInformation 2 --traceIdDebug 3 --traceIdError 4 --traceIdCritical 5"
+    }
+  }
+}
