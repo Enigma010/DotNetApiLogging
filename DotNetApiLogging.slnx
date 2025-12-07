@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DotNetApiLogging.Tests.Console.EndToEnd/DotNetApiLogging.Tests.Console.EndToEnd.csproj" />
+  <Project Path="DotNetApiLogging.Tests.EndToEnd/DotNetApiLogging.Tests.EndToEnd.csproj" />
+  <Project Path="DotNetApiLogging.Tests.Unit/DotNetApiLogging.Tests.Unit.csproj" />
+  <Project Path="DotNetApiLogging/DotNetApiLogging.csproj" />
+</Solution>
